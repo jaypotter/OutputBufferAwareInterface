@@ -1,0 +1,28 @@
+{
+    "name": "potter/output-buffer-aware-interface",
+    "description": "PHP Output Buffer Aware Interface",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "suggest": {
+        "potter/output-buffer": "dev-main",
+        "potter/buffer-interfaces": "dev-main",
+        "potter/buffer": "dev-main",
+        "potter/contracts": "dev-main",
+        "potter/framework": "dev-main"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Buffer\\Output\\Aware\\": "src/Potter/Buffer/Output/Aware/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "dev"
+}
