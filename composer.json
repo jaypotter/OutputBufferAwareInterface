@@ -6,9 +6,12 @@
         "php": "^8.3"
     },
     "suggest": {
+        "potter/output-buffer-interfaces": "dev-main",
         "potter/output-buffer": "dev-main",
         "potter/buffer-interfaces": "dev-main",
         "potter/buffer": "dev-main",
+        "potter/aware-interfaces": "dev-main",
+        "potter/aware": "dev-main",
         "potter/contracts": "dev-main",
         "potter/framework": "dev-main"
     },
