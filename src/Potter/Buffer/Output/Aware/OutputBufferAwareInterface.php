@@ -10,4 +10,5 @@ interface OutputBufferAwareInterface
 {
     public function getOutputBuffer(): OutputBufferInterface;
     public function hasOutputBuffer(): bool;
+    public function startOutputBuffer(): void;
 }
